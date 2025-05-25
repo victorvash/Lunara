@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lunara Wellness</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Inter:wght@300;500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #fefcf9;
+      color: #333;
+    }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+    header {
+      text-align: center;
+      padding-bottom: 2rem;
+    }
+    .logo {
+      max-width: 360px;
+      margin-bottom: 0.1rem;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.0rem;
+      color: #f3f3f;
+    }
+    p.subtitle {
+      font-size: 0.9rem;
+      color: #777;
+    }
+    .hero-image {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin: 2rem 0;
+    }
+    .section {
+      margin-bottom: 2rem;
+    }
+    .section h2 {
+      color: #486c5e;
+      margin-bottom: 1rem;
+    }
+    .portfolio-item {
+      background-color: #f3f1ee;
+      padding: 1.5rem;
+      border-radius: 5px;
+      margin-bottom: 2rem;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    input, textarea {
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    button {
+      background-color: #a68a64;
+      color: white;
+      padding: 0.75rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #aaa;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="i (5).png" alt="LUNARA Wellness Logo" class="logo">
+      <h1>Lunara Wellness</h1>
+      <p class="subtitle">Helping wellness brands align their message, presence and purpose.</p>
+    </header>
+
+    <img src="ritual2.jpg" alt="Wellness Hero Image" class="hero-image">
+
+    <div class="section">
+      <h2>About</h2>
+      <p>I’m a brand strategist specializing in wellness brands. I help visionary creators discover their true brand voice, align with their mission, and build identities that resonate with clarity and heart.</p>
+    </div>
+
+    <div class="section">
+      <h2>Portfolio Highlights</h2>
+      <div class="portfolio-item">
+        <strong>Botanica Soul</strong><br>
+        Complete brand refresh for a plant-based supplement startup.
+      </div>
+      <div class="portfolio-item">
+        <strong>Serenity Flow Studio</strong><br>
+        Branding, tone of voice, and identity design for a holistic movement center.
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Book a Free Clarity Call</h2>
+      <form name="contact" method="POST" data-netlify="true">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Tell me about your wellness brand..." rows="4"></textarea>
+        <button type="submit">Schedule My Call</button>
+      </form>
+    </div>
+
+    <footer>
+      &copy; 2025 Lunara Wellness | Rooted in alignment |  0904 240 6599
+    </footer>
+  </div>
+</body>
+</html>
